@@ -2,13 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.FacebookFragment">
+    tools:context=".FacebookFragment">
 
     <WebView
         android:id="@+id/FbWebview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center">
-
-    </WebView>
+        android:layout_gravity="fill" />
 </FrameLayout>
